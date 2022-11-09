@@ -4,26 +4,14 @@ How does the pre-training objective affect what large language models learn abou
 This repo contains the pre-trained models and the implementation code for the ACL 2022 paper [How does the pre-training objective affect what large language models learn about linguistic properties?](https://aclanthology.org/2022.acl-short.16/).
 
 ## Pre-trained models
-### 1. Base models
-* MLM: https://huggingface.co/aajrami/bert-mlm-base
-* Shuffle + Random: https://huggingface.co/aajrami/bert-sr-base
-* First Char: https://huggingface.co/aajrami/bert-fc-base
-* ASCII: https://huggingface.co/aajrami/bert-ascii-base
-* Random: https://huggingface.co/aajrami/bert-rand-base
-
-### 2. Medium models
-* MLM: https://huggingface.co/aajrami/bert-mlm-medium
-* Shuffle + Random: https://huggingface.co/aajrami/bert-sr-medium
-* First Char: https://huggingface.co/aajrami/bert-fc-medium
-* ASCII: https://huggingface.co/aajrami/bert-ascii-medium
-* Random: https://huggingface.co/aajrami/bert-rand-medium
-
-### 3. Small models
-* MLM: https://huggingface.co/aajrami/bert-mlm-small
-* Shuffle + Random: https://huggingface.co/aajrami/bert-sr-small
-* First Char: https://huggingface.co/aajrami/bert-fc-small
-* ASCII: https://huggingface.co/aajrami/bert-ascii-small
-* Random: https://huggingface.co/aajrami/bert-rand-small
+The links to the pre-trained models that are uploaded to Hugging Face: 
+| Base models | Medium models | Small models |
+| --- | ----------- | ----------- |
+| [MLM](https://huggingface.co/aajrami/bert-mlm-base) | [MLM](https://huggingface.co/aajrami/bert-mlm-medium) | [MLM](https://huggingface.co/aajrami/bert-mlm-small) | 
+| [Shuffle + Random](https://huggingface.co/aajrami/bert-sr-base) | [Shuffle + Random](https://huggingface.co/aajrami/bert-sr-medium) | [Shuffle + Random](https://huggingface.co/aajrami/bert-sr-small) |
+| [First Char](https://huggingface.co/aajrami/bert-fc-base) | [First Char](https://huggingface.co/aajrami/bert-fc-medium) | [First Char](https://huggingface.co/aajrami/bert-fc-small) |
+| [ASCII](https://huggingface.co/aajrami/bert-ascii-base) | [ASCII](https://huggingface.co/aajrami/bert-ascii-medium) | [ASCII](https://huggingface.co/aajrami/bert-ascii-small) | 
+| [Random](https://huggingface.co/aajrami/bert-rand-base) | [Random](https://huggingface.co/aajrami/bert-rand-medium) | [Random](https://huggingface.co/aajrami/bert-rand-small) | 
 
 ## Requirements  
 * torch
