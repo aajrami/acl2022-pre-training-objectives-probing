@@ -12,9 +12,18 @@ This repo contains the pre-trained models and the implementation code for the AC
 * Random: https://huggingface.co/aajrami/bert-rand-base
 
 ### 2. Medium models
-to be uploaded
+* MLM: https://huggingface.co/aajrami/bert-mlm-medium
+* Shuffle + Random: https://huggingface.co/aajrami/bert-sr-medium
+* First Char: https://huggingface.co/aajrami/bert-fc-medium
+* ASCII: https://huggingface.co/aajrami/bert-ascii-medium
+* Random: https://huggingface.co/aajrami/bert-rand-medium
+
 ### 3. Small models
-to be uploaded
+* MLM: https://huggingface.co/aajrami/bert-mlm-small
+* Shuffle + Random: https://huggingface.co/aajrami/bert-sr-small
+* First Char: https://huggingface.co/aajrami/bert-fc-small
+* ASCII: https://huggingface.co/aajrami/bert-ascii-small
+* Random: https://huggingface.co/aajrami/bert-rand-small
 
 ## Requirements  
 * torch
