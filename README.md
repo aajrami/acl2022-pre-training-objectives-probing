@@ -53,7 +53,7 @@ python pretrainer.py \
 --max_grad_norm=1.0 \
 --num_train_epochs=10 \
 --warmup_steps=10000 \
---save_steps=200000 \
+--save_steps=10000 \
 --save_interval=100000 \
 --seed=42 \
 --per_device_train_batch_size=16 \
@@ -99,7 +99,7 @@ pretrainer.py \
 --max_grad_norm=1.0 \
 --num_train_epochs=10 \
 --warmup_steps=10000 \
---save_steps=200000 \
+--save_steps=10000 \
 --save_interval=100000 \
 --seed=42 \
 --per_device_train_batch_size=16 \
